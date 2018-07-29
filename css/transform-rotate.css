@@ -1,0 +1,15 @@
+p {
+	width: 50px;
+	height: 50px;
+	background-color: #1abc9c;
+	color: white;
+	border: 3px solid dimgrey;
+}
+
+.transformed {
+	background-color: steelblue;
+/*	transform: rotate(45deg) scale(0.5);
+*/	transform-origin: right 25px;
+	/*transform: scale(0.5); will override rotate, but can concatenate*/
+	transform: rotate(0.25turn);
+}
