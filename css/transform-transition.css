@@ -1,0 +1,35 @@
+.box {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background-color: #1abc9c;
+	color: white;
+	font-size: 17px;
+	border-radius: 20px;
+}
+/*
+.box:hover {
+	background-color: red;
+	transform-origin: top left;
+	transform: scale(2);
+	border-radius: 50px;
+	opacity: 0.5;
+}
+
+.animated {
+	transition-duration: 1s, 1s;
+	transition-property: border-radius, background-color;
+	transition-delay: 2s,52s;
+}*/
+
+.animated {
+	transition-property: transform;
+	transition-duration: 2s;
+	/*transition-timing-function: ease-in-out;*/
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.box:hover {
+	transform: translate(300px);
+}
