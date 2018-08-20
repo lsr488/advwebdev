@@ -8,6 +8,10 @@ body {
 	animation-iteration-count: infinite;
 }
 
+.container {
+	width: 800px;
+}
+
 .grass {
 	background-color: darkgreen;
 	height: 800px;
@@ -51,23 +55,23 @@ body {
 @keyframes sunrise-sun {
 	0% {
 		background-color: orangered;
-		transform: translate(0, 50%);
+		transform: translate(-200px, 100%);
 	}
 	25% {
 		background-color: #f1c40f;
-		transform: translate(100%, 25%);
+		transform: translate(450px, 0%);
 	}
 	50% {
 		background-color: #f1c40f;
-		transform: translate(200%, 0%);
+		transform: translate(900px, -25%);
 	}
 	75% {
 		background-color: #f1c40f;
-		transform: translate(300%, 25%);
+		transform: translate(1350px, 0%);
 	}
 	100% {
 		background-color: red;		
-		transform: translate(400%, 50%);
+		transform: translate(1800px, 100%);
 	}
 
 }
